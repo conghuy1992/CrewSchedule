@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="@dimen/divider_monthly_height"
+            android:layout_height="200dp"
+            android:background="@color/normal_day_border_color" />
+
+        <TextView
+            android:id="@+id/schedule_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/tv_luna_color"
+            android:textSize="@dimen/schedule_daily_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

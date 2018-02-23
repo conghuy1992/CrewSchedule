@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+              android:gravity="center"
+              android:padding="10dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_month_num"
+        android:layout_width="wrap_content"
+        android:text="@string/month_num_example"
+        android:textSize="@dimen/text_popup_month_size"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_month_char"
+        android:layout_width="wrap_content"
+        android:text="@string/month_char_example"
+        android:textSize="@dimen/text_popup_month_c_size"
+        android:textColor="@color/text_popup_month_c_color"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

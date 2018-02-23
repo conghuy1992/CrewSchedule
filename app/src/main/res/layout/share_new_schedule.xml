@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_marginTop="@dimen/add_new_schedule_margintop"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/add_ic_share"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/add_new_schedule_icon_margin_right"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/string_share"
+            style="@style/tv_new_schedule_style_disable"/>
+        <include layout="@layout/row_share_new_schedule"
+            android:id="@+id/share_new_schedule"/>
+    </LinearLayout>
+
+</LinearLayout>

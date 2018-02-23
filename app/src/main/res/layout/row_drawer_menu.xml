@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_bound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp">
+
+
+        <ImageView
+            android:id="@+id/icon_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/menu_left_ic_agenda" />
+
+        <FrameLayout
+            android:id="@+id/frcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="30dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/drawer_menu_text_size" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="37dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/drawer_menu_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:button="@drawable/btn_check_box"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/drawer_menu_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/child_lnl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_add_new_schedule_height"
+        android:background="@color/divide_color" />
+</LinearLayout>

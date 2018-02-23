@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_select_hour"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/add_new_schedule_margintop"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@+id/start_time"
+        layout="@layout/row_time_add_new_schedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        style="@style/tv_new_schedule_style"
+        android:paddingLeft="@dimen/add_new_schedule_icon_margin_right"
+        android:paddingRight="@dimen/add_new_schedule_icon_margin_right"
+        android:text="~" />
+
+    <include
+        android:id="@+id/end_time"
+        layout="@layout/row_time_add_new_schedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_daily_bound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normal_day_border_color"
+    android:orientation="vertical"
+    android:padding="@dimen/divider_monthly_height">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/schedule_day_in_row_size" />
+
+    <LinearLayout
+        android:id="@+id/ln_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone"></LinearLayout>
+</LinearLayout>

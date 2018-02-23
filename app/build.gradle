@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    def versionMajor = 0
+    def versionMinor = 1
+    def versionPatch = 56911
+    signingConfigs {
+        release {
+            storeFile file("DazoneKeyStore.jks")
+            storePassword 'tranquoctrung'
+            keyAlias 'dazone'
+            keyPassword 'tranquoctrung'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.dazone.crewschedule"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode Integer.parseInt("${versionMajor}${versionMinor}${versionPatch}");
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "ENABLE_DEBUG", "false"
+        }
+        debug {
+            buildConfigField "boolean", "ENABLE_DEBUG", "true"
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'com.nononsenseapps:filepicker:2.4.2'
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+}

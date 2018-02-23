@@ -1,0 +1,152 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+
+    <style name="FilePickerTheme" parent="NNF_BaseTheme">
+        <!-- Set these to match your theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Need to set this also to style create folder dialog -->
+        <item name="alertDialogTheme">@style/FilePickerAlertDialogTheme</item>
+
+        <!-- If you want to set a specific toolbar theme, do it here -->
+        <!-- <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item> -->
+    </style>
+
+    <style name="FilePickerAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/btn_dialog_press_state</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="AppButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/btn_press_state</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:background">@drawable/gradient_btn</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="btn_small_style" parent="btn_style">
+        <item name="android:layout_height">@dimen/button_height_small</item>
+        <item name="android:textSize">@dimen/button_text_size_small</item>
+    </style>
+
+    <style name="btn_small_style_white" parent="btn_style_white">
+        <item name="android:layout_height">@dimen/button_height_small</item>
+        <item name="android:textSize">@dimen/button_text_size_small</item>
+    </style>
+
+    <style name="btn_style_white">
+        <item name="android:background">@drawable/gradient_btn_white</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="default_avatar_45dp">
+        <item name="android:layout_width">@dimen/dimen_default_avatar</item>
+        <item name="android:layout_height">@dimen/dimen_default_avatar</item>
+        <item name="android:src">@drawable/avatar_l</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="chatting_avatar_30dp">
+        <item name="android:layout_width">@dimen/dimen_chatting_avatar</item>
+        <item name="android:layout_height">@dimen/dimen_chatting_avatar</item>
+        <item name="android:src">@drawable/avatar_l</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="chatting_image">
+        <item name="android:layout_width">@dimen/dimen_chat_image</item>
+        <item name="android:layout_height">@dimen/dimen_chat_image</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="menu_icon">
+        <item name="android:layout_width">@dimen/dimen_menu_icon</item>
+        <item name="android:layout_height">@dimen/dimen_menu_icon</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="tree_user_avatar">
+        <item name="android:layout_width">@dimen/tree_user_avatar_dimen</item>
+        <item name="android:layout_height">@dimen/tree_user_avatar_dimen</item>
+        <item name="android:src">@drawable/avatar_l</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+
+    <style name="border">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_1_2</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="custom_checkbox">
+        <item name="android:layout_width">@dimen/w_cb</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/size_title_cb</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="custom_title">
+        <item name="android:layout_width">@dimen/width_title</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_title</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="custom_rd">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/size_title</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+</resources>

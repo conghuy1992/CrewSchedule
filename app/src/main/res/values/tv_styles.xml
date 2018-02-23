@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="tv_new_schedule_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_text_add_new_schedule_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="tv_new_schedule_style_disable">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/day_add_new_schedule_size</item>
+        <item name="android:textColor">@color/day_add_new_schedule_color</item>
+    </style>
+    <style name="tv_new_schedule_style_time" parent="@style/tv_new_schedule_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/content_text_add_new_schedule_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="tv_new_schedule_style_content" parent="@style/tv_new_schedule_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_text_add_new_schedule_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="tv_auto_run_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_text_add_new_schedule_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:text">@string/aaaa</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="imbt_new_schedule_style">
+        <item name="android:layout_width">@dimen/add_new_schedule_button_width</item>
+        <item name="android:layout_height">@dimen/add_new_schedule_button_height</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+</resources>

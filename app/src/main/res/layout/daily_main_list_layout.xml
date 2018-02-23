@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_daily_bound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/day_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aaaa"
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/day_char"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aaaa"
+            android:textColor="@color/daily_list_schedule_color"
+            android:textSize="10sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/schedule_lnl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

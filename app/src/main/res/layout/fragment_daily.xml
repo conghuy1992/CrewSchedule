@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <View
+        android:layout_width="@dimen/divider_add_new_schedule_height"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/vertical_divider_margin_left"
+        android:background="@android:color/black" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/daily_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/daily_item_marginLeft"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

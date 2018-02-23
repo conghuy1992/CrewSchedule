@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/select_time_new_schedule" />
+
+    <include layout="@layout/content_new_schedule" />
+
+    <include layout="@layout/alarm_new_schedule" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_add_new_schedule_height"
+        android:background="@color/divider_add_new_schedule_color" />
+
+    <include layout="@layout/select_calendar_new_schedule" />
+
+    <include layout="@layout/schedule_div_new_schedule" />
+
+    <include layout="@layout/share_new_schedule" />
+
+    <include layout="@layout/attach_new_schedule" />
+</LinearLayout>

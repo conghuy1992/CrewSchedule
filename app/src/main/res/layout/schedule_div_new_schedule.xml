@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/add_new_schedule_margintop"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_ic_schedule" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/add_new_schedule_icon_margin_right">
+
+        <TextView
+            style="@style/tv_new_schedule_style_disable"
+            android:text="@string/string_schedule_div" />
+
+        <include
+            android:id="@+id/schedule_div_new_schedule"
+            layout="@layout/row_schedule_div_add_new_schedule" />
+    </LinearLayout>
+
+</LinearLayout>

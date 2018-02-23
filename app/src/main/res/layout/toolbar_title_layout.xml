@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:id="@+id/custom_toolbar_bound"
+              android:paddingRight="10dp"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/string_add_new_schedule_title"
+            android:textSize="@dimen/tool_bar_text_size"
+            android:textColor="@android:color/white"/>
+
+</LinearLayout>

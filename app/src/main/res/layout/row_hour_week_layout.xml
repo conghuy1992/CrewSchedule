@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_daily_bound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normal_day_border_color"
+    android:orientation="vertical"
+    android:padding="@dimen/divider_monthly_height">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_14_28"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ln_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="8sp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">CrewSchedule</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_search">Search</string>
+    <string name="action_status">Status</string>
+
+    <string name="loading_title">Loading...</string>
+    <string name="loading_content">Please wait.</string>
+    <string name="string_status_no_result">No data</string>
+    <string name="string_ok">OK</string>
+    <string name="no_connection_error">No Internet Connection</string>
+    <string name="no_wifi_error">Please turn on wifi to continue </string>
+    <string name="turn_wifi_on">Turn wifi on</string>
+    <string name="string_skip">Skip</string>
+    <string name="string_cancel">Cancel</string>
+
+    <string name="string_server_site">Organization ID</string>
+
+    <!-- Login screen -->
+    <string name="login_username">UserID</string>
+    <string name="login_password">Password</string>
+    <string name="login_Required">Required</string>
+    <string name="login_login">Log In</string>
+    <string name="have_no_id"> Have no UserID </string>
+    <string name="for_got_string">Forgot password ?</string>
+    <string name="slash_string"> / </string>
+    <string name="sign_up_string">Create an account</string>
+    <string name="string_help">Help</string>
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="string_sign_up">Sign Up</string>
+    <string name="no_network_error">Can Not Connect To Server</string>
+    <string name="string_wrong_server_site">Wrong Server Site</string>
+    <string name="login_empty_input">cannot be empty</string>
+    <string name="string_error_code_2">Invalid User ID</string>
+    <string name="string_error_code_3">Invalid Pasword</string>
+    <string name="string_error_code_4">User left</string>
+    <string name="string_error_code_5">Access Deny</string>
+    <string name="string_error_code_9">Can not detected Error</string>
+    <string name="string_error_code_default">Server Error</string>
+    <string name="title_activity_base_pager">BasePagerActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_base_single">BaseSingleActivity</string>
+    <string name="chat_hint">Enter text</string>
+
+
+    <string name="string_take_photo">Take photo</string>
+    <string name="string_get_from_gallery">Get from Gallery</string>
+    <string name="imv_desc">imageview description</string>
+
+    <string name="string_temp">Text temp</string>
+
+    //register 28/12/2015 update version
+    <string name="string_update">Update</string>
+    <string name="string_update_content">This Version is lower than current version, please update</string>
+    <string name="wating_app_download">File downloading, please wait </string>
+
+
+    <string name="aaaa">Text Example</string>
+    //home string
+
+    <string name="string_sun">Sun</string>
+    <string name="string_mon">mon</string>
+    <string name="string_tue">tue</string>
+    <string name="string_wed">wed</string>
+    <string name="string_thu">thu</string>
+    <string name="string_fri">fri</string>
+    <string name="string_sat">sat</string>
+    <string name="string_all_day">All Day</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="string_add_new_schedule_title">Add New</string>
+    <string name="date_picker_title_date">Select Date</string>
+    <string name="date_picker_title_month">Select Month</string>
+
+
+    <string name="string_day">Day</string>
+    <string name="string_content">Content</string>
+    <string name="string_alarm">Alarm</string>
+    <string name="string_select_calendar">Select Calendar</string>
+    <string name="string_schedule_div">Schedule Div.</string>
+    <string name="string_share">Share</string>
+    <string name="string_attach">Attach</string>
+    <string name="string_lunar">Lunar</string>
+    <string name="string_all_day_long">All Day Long</string>
+    <string name="string_no_repeat">No Repeat</string>
+    <string name="string_repeat">Repeat</string>
+    <string name="string_none">None</string>
+    <string name="string_content_new_schedule_hint">Enter Content</string>
+    <string name="today_string">Today</string>
+    <string name="string_writer">Writer</string>
+
+    <string name="string_agenda">Agenda</string>
+    <string name="string_week">Week</string>
+    <string name="string_month">Month</string>
+    <string name="string_all_calendar">All Calendar</string>
+    <string name="string_public_calendar">Public Calendar</string>
+    <string name="string_private_calendar">Private Calendar</string>
+    <string name="string_share_calendar">Share Calendar</string>
+    <string name="dday">D-day</string>
+
+    <string name="connection_falsed">Can not connect the above address </string>
+
+    <string name="menu_crew_note_search">SEARCH</string>
+    <string name="string_last_visited">Last visited:</string>
+    <string name="string_log_out">Log Out</string>
+    <string name="title_activity_tool_bar">ToolBarActivity</string>
+    <string name="string_space">~</string>
+    <string name="string_size">Size</string>
+    <string name="string_alert_download_attach">Are you download this file?</string>
+    <string name="month_num_example">1</string>
+    <string name="month_char_example">JAN</string>
+    <string name="string_no_data">No Data</string>
+    <!--<string name="quit_confirm">Press back again to quit.</string>-->
+
+    <string name="special_day">Special Day</string>
+    <string name="daily_day">Daily</string>
+    <string name="weekly_day">Weekly</string>
+    <string name="monthly_day">Monthly</string>
+    <string name="annualy_day">Annually</string>
+
+    <string name="rd_calendar">Calendar</string>
+    <string name="rd_lunar">Lunar</string>
+    <string name="rd_month">Intercalary Months</string>
+    <string name="frequency">Frequency</string>
+    <string name="startend">Start / End</string>
+    <string name="infinite">Infinite Loop</string>
+    <!--<string name="quit_confirm">Press back again to quit.</string>-->
+    <string name="personal_id">PERSONAL ID</string>
+    <string name="email">EMAIL</string>
+    <string name="company_name">COMPANY NAME</string>
+    <string name="phone">PHONE NUMBER</string>
+
+</resources>

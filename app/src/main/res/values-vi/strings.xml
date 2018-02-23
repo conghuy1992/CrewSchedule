@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">CrewSchedule</string>
+
+    <string name="navigation_drawer_open">Mở navigation </string>
+    <string name="navigation_drawer_close">Đóng navigation</string>
+
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_edit">Chỉnh sửa</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_status">Trạng thái</string>
+
+    <string name="loading_title">Đang load...</string>
+    <string name="loading_content">Vui lòng chờ một chút.</string>
+    <string name="string_status_no_result">Không có dữ liệu.</string>
+    <string name="string_ok">OK</string>
+    <string name="no_connection_error">Không có internet</string>
+    <string name="no_wifi_error">Vui lòng bật Wifi</string>
+    <string name="turn_wifi_on">Bật Wifi</string>
+    <string name="string_skip">Bỏ qua</string>
+    <string name="string_cancel">Hủy</string>
+
+    <string name="string_server_site">ID tổ chức</string>
+
+    <!-- Login screen -->
+    <string name="login_username">ID dùng</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_Required">Cần thiết</string>
+    <string name="login_login">Log in</string>
+    <string name="have_no_id">Trường hợp chưa có ID</string>
+    <string name="for_got_string">Quên mật khẩu</string>
+    <string name="slash_string"> / </string>
+    <string name="sign_up_string">Đăng ký thành viên</string>
+    <string name="string_help">Giúp đỡ</string>
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="string_sign_up">Sign Up</string>
+    <string name="no_network_error">Không thể kết nối với server</string>
+    <string name="string_wrong_server_site">Link liên kết với server bị sai</string>
+    <string name="login_empty_input">Không được để trống</string>
+    <string name="string_error_code_2">ID sử dụng không đúng</string>
+    <string name="string_error_code_3">Mật khẩu không đúng</string>
+    <string name="string_error_code_4">User left</string>
+    <string name="string_error_code_5">Không thể liên kết với server</string>
+    <string name="string_error_code_9">Lỗi không xác định</string>
+    <string name="string_error_code_default">Lỗi server</string>
+    <string name="title_activity_base_pager">BasePagerActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_base_single">BaseSingleActivity</string>
+    <string name="chat_hint">Enter text</string>
+
+
+    <string name="string_take_photo">Camera</string>
+    <string name="string_get_from_gallery">Album</string>
+    <string name="imv_desc">Giải thích ảnh</string>
+
+    <string name="string_temp">Text temp</string>
+
+    //register 28/12/2015 update version
+    <string name="string_update">Update</string>
+    <string name="string_update_content">Tồn tại phiên bản mới hơn, vui lòng cập nhật.</string>
+    <string name="wating_app_download">Đang dowload file vui lòng chờ một chút</string>
+
+
+    <string name="aaaa">Text Example</string>
+    //home string
+
+    <string name="string_sun">Chủ nhật</string>
+    <string name="string_mon">Thứ 2</string>
+    <string name="string_tue">Thứ 3</string>
+    <string name="string_wed">Thứ 4</string>
+    <string name="string_thu">Thứ 5</string>
+    <string name="string_fri">Thứ 6</string>
+    <string name="string_sat">Thứ 7</string>
+    <string name="string_all_day">Cả ngày</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="string_add_new_schedule_title">Thêm</string>
+    <string name="date_picker_title_date">Chọn ngày</string>
+    <string name="date_picker_title_month">Chọn tháng</string>
+
+
+    <string name="string_day">Ngày</string>
+    <string name="string_content">Nội dung</string>
+    <string name="string_alarm">Thông báo</string>
+    <string name="string_select_calendar">Chọn lịch</string>
+    <string name="string_schedule_div">Phân loại lịch</string>
+    <string name="string_share">Chia sẻ</string>
+    <string name="string_attach">Đính kèm</string>
+    <string name="string_lunar">Âm lịch</string>
+    <string name="string_all_day_long">Cả ngày</string>
+    <string name="string_no_repeat">Không lặp lại</string>
+    <string name="string_repeat">Lặp lại</string>
+    <string name="string_none">Không</string>
+    <string name="string_content_new_schedule_hint">Nội dung lịch trình</string>
+    <string name="today_string">Hôm nay</string>
+    <string name="string_writer">Người viết</string>
+
+    <string name="string_agenda">Lịch tháng</string>
+    <string name="string_week">Lịch tuần</string>
+    <string name="string_month">Lịch biểu</string>
+    <string name="string_all_calendar">Tất cả lịch</string>
+    <string name="string_public_calendar">Lịch công khai</string>
+    <string name="string_private_calendar">Lịch cá nhân</string>
+    <string name="string_share_calendar">Lịch chia sẻ</string>
+    <string name="dday">D-day</string>
+
+    <string name="connection_falsed">Địa chỉ trên không tồn tại</string>
+
+    <string name="menu_crew_note_search">Tìm kiếm</string>
+    <string name="string_last_visited">Lần xem gần nhất:</string>
+    <string name="string_log_out">Log uot</string>
+    <string name="title_activity_tool_bar">Liên kết action bar</string>
+    <string name="string_space">~</string>
+    <string name="string_size">Size</string>
+    <string name="string_alert_download_attach">Bạn có muốn tải xuống tập tin?</string>
+    <string name="month_num_example">1</string>
+    <string name="month_char_example">Tháng 1</string>
+    <string name="string_no_data">Không có dữ liệu</string>
+    <!--<string name="quit_confirm">Click thêm lần nữa ứng dụng sẽ được đóng.</string>-->
+
+    <string name="special_day">Ngày chỉ định</string>
+    <string name="daily_day">Mỗi ngày</string>
+    <string name="weekly_day">Mỗi tuần</string>
+    <string name="monthly_day">Mỗi tháng</string>
+    <string name="annualy_day">Mỗi năm</string>
+
+    <string name="rd_calendar">Lịch</string>
+    <string name="rd_lunar">Âm lịch</string>
+    <string name="rd_month">Tháng nhuận</string>
+    <string name="frequency">Lặp lại</string>
+    <string name="startend">Bắt đầu/Kết thúc</string>
+    <string name="infinite">Vô hạn</string>
+    <!--<string name="quit_confirm">Click thêm lần nữa ứng dụng sẽ được đóng.</string>-->
+    <string name="personal_id">ID người dùng</string>
+    <string name="email">Mail</string>
+    <string name="company_name">Tên tổ chức</string>
+    <string name="phone">Số điện thoại</string>
+</resources>

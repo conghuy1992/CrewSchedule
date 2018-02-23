@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="text_date_title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/dimen_text_home_title_height</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dimen_text_home_title_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/schedule_day_of_week_text_size</item>
+    </style>
+
+    <style name="text_week_date_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_text_home_title_height</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dimen_text_home_title_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/schedule_day_of_week_text_size</item>
+    </style>
+</resources>

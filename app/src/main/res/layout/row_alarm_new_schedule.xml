@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/add_new_schedule_margintop"
+    android:layout_marginTop="@dimen/add_new_schedule_margintop"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_alarm"
+        style="@style/tv_new_schedule_style"
+        android:text="@string/string_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imv_alarm"
+        style="@style/imbt_new_schedule_style"
+        android:layout_marginLeft="@dimen/add_new_schedule_margintop"
+        android:src="@drawable/add_btn_alarm"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="@dimen/cb_alarm"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Note Notification"
+            android:textSize="@dimen/size_title" />
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="@dimen/cb_alarm"
+            android:layout_height="wrap_content"
+            android:text="Mail Notification"
+            android:textSize="@dimen/size_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="@dimen/cb_alarm"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="SMS Notification"
+            android:textSize="@dimen/size_title" />
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="@dimen/cb_alarm"
+            android:layout_height="wrap_content"
+            android:text="Popup Notification"
+            android:textSize="@dimen/size_title" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/alarm_spinner"
+        android:layout_width="@dimen/cb_alarm"
+        android:layout_height="wrap_content"></Spinner>
+
+
+</LinearLayout>

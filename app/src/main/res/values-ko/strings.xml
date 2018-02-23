@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">크루일정관리</string>
+
+    <string name="navigation_drawer_open">네비케이선 열기</string>
+    <string name="navigation_drawer_close">네비케이선 닫기</string>
+
+
+    <string name="action_settings">설정</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_edit">수정</string>
+    <string name="action_search">검색</string>
+    <string name="action_status">상태</string>
+
+    <string name="loading_title">로딩 중...</string>
+    <string name="loading_content">잠시만 기다리십시오.</string>
+    <string name="string_status_no_result">데이터가 없습니다.</string>
+    <string name="string_ok">OK</string>
+    <string name="no_connection_error">인터넷이 없습니다</string>
+    <string name="no_wifi_error">Wifi 인터넷을 연결해주세요 </string>
+    <string name="turn_wifi_on">Wifi 켜주세요</string>
+    <string name="string_skip">건너 뛰기</string>
+    <string name="string_cancel">취소</string>
+
+    <string name="string_server_site">단체 아이디</string>
+
+    <!-- Login screen -->
+    <string name="login_username">아이디</string>
+    <string name="login_password">비밀번호</string>
+    <string name="login_Required">필수</string>
+    <string name="login_login">로그인</string>
+    <string name="have_no_id">아이디 없는 경우</string>
+    <string name="for_got_string">비밀번호 찾기</string>
+    <string name="slash_string"> / </string>
+    <string name="sign_up_string">회원가입</string>
+    <string name="string_help">도음말</string>
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="string_sign_up">Sign Up</string>
+    <string name="no_network_error">서버에 접속 못 했습니다.</string>
+    <string name="string_wrong_server_site">서버 접속 링크 잘 못 했습니다.</string>
+    <string name="login_empty_input">비우면 안 됩니다</string>
+    <string name="string_error_code_2">사용자 아이디 맞지 않습니다.</string>
+    <string name="string_error_code_3">비밀번호가 맞지 않습니다</string>
+    <string name="string_error_code_4">User left</string>
+    <string name="string_error_code_5">접속 못 했습니다</string>
+    <string name="string_error_code_9">Can not detected Error</string>
+    <string name="string_error_code_default">Server Error</string>
+    <string name="title_activity_base_pager">BasePagerActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_base_single">BaseSingleActivity</string>
+    <string name="chat_hint">Enter text</string>
+
+
+    <string name="string_take_photo">사진 찍기</string>
+    <string name="string_get_from_gallery">앨범에서 선택</string>
+    <string name="imv_desc">이미지 설명</string>
+
+    <string name="string_temp">Text temp</string>
+
+    //register 28/12/2015 update version
+    <string name="string_update">업데이트</string>
+    <string name="string_update_content">최신 버젼 존재합니다.업데이트해주세요.</string>
+    <string name="wating_app_download">파일을 다운로중입니다.잠시만 기다리 주세요.</string>
+
+
+    <string name="aaaa">Text Example</string>
+    //home string
+
+    <string name="string_sun">일</string>
+    <string name="string_mon">월</string>
+    <string name="string_tue">화</string>
+    <string name="string_wed">수</string>
+    <string name="string_thu">목</string>
+    <string name="string_fri">금</string>
+    <string name="string_sat">토</string>
+    <string name="string_all_day">종일</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="string_add_new_schedule_title">추가</string>
+    <string name="date_picker_title_date">날짜 선택</string>
+    <string name="date_picker_title_month">월 선택</string>
+
+
+    <string name="string_day">날짜</string>
+    <string name="string_content">내용</string>
+    <string name="string_alarm">알림</string>
+    <string name="string_select_calendar">캘린더 선택</string>
+    <string name="string_schedule_div">일정 구분</string>
+    <string name="string_share">공유</string>
+    <string name="string_attach">첨부</string>
+    <string name="string_lunar">음력</string>
+    <string name="string_all_day_long">종일</string>
+    <string name="string_no_repeat">반복 읎음</string>
+    <string name="string_repeat">반복</string>
+    <string name="string_none">없음</string>
+    <string name="string_content_new_schedule_hint">일정 내용</string>
+    <string name="today_string">오늘</string>
+    <string name="string_writer">작성자</string>
+
+    <string name="string_agenda">월간</string>
+    <string name="string_week">주간</string>
+    <string name="string_month">목록</string>
+    <string name="string_all_calendar">전체 캘린더</string>
+    <string name="string_public_calendar">전사 캘린더</string>
+    <string name="string_private_calendar">개인 캘리더</string>
+    <string name="string_share_calendar">공유 캐린더</string>
+    <string name="dday">D-day</string>
+
+    <string name="connection_falsed">아래 주소에 접속 못 했습니다.</string>
+
+    <string name="menu_crew_note_search">검색</string>
+    <string name="string_last_visited">최근방문:</string>
+    <string name="string_log_out">로그웃</string>
+    <string name="title_activity_tool_bar">액션바연동</string>
+    <string name="string_space">~</string>
+    <string name="string_size">사이즈</string>
+    <string name="string_alert_download_attach">파일을 다운로드하시겠습니까?</string>
+    <string name="month_num_example">1</string>
+    <string name="month_char_example">일월</string>
+    <string name="string_no_data">데이터가 없습니다</string>
+    <!--<string name="quit_confirm">'뒤로'버튼을 한번 더 누르시면 종료됩니다.</string>-->
+
+    <string name="special_day">특정일</string>
+    <string name="daily_day">매일</string>
+    <string name="weekly_day">매주</string>
+    <string name="monthly_day">매월</string>
+    <string name="annualy_day">매년</string>
+
+    <string name="rd_calendar">캐린더</string>
+    <string name="rd_lunar">음력</string>
+    <string name="rd_month">윤달</string>
+    <string name="frequency">반복</string>
+    <string name="startend">시작/끝</string>
+    <string name="infinite">종료일 없음</string>
+    <!--<string name="quit_confirm">'뒤로'버튼을 한번 더 누르시면 종료됩니다.</string>-->
+    <string name="personal_id">사용자 아이디</string>
+    <string name="email">메일</string>
+    <string name="company_name">단체 이름</string>
+    <string name="phone">전화번호</string>
+</resources>

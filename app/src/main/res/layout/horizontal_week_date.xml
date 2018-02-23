@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sun"
+            style="@style/text_week_date_title"
+            android:text="10" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_sun" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_mon"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_mon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tue"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_tue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_wed"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_wed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_thu"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_thu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_fri"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_fri" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sat"
+            style="@style/text_week_date_title"
+            android:text="11" />
+
+        <TextView
+            style="@style/text_week_date_title"
+            android:text="@string/string_sat" />
+    </LinearLayout>
+</LinearLayout>

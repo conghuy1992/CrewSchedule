@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.dazone.crewschedule.CustomView.CircleColorView
+        android:layout_width="@dimen/circle_width"
+        android:layout_height="@dimen/circle_width"
+        android:layout_marginLeft="@dimen/circle_margin_Left" />
+
+    <LinearLayout
+        android:id="@+id/lnl_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/daily_item_marginTop"
+        android:layout_marginLeft="@dimen/daily_item_marginLeft"
+        android:layout_marginRight="@dimen/daily_item_marginLeft"
+        android:layout_marginTop="@dimen/daily_item_marginTop"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingBottom="3dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:id="@+id/tv_schedule_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aaaa"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_schedule_name" />
+
+        <TextView
+            android:id="@+id/tv_schedule_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aaaa"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_schedule_time" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/rd_calendar"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rd_lunar"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rd_month"
+                android:textColor="#000000"
+                android:textSize="13dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="@string/startend" />
+
+        <include
+            android:id="@+id/startday"
+            layout="@layout/calendar_startday" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layouttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="Time" />
+
+        <include
+            android:id="@+id/starthour"
+            layout="@layout/calendar_starthour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView style="@style/custom_title" />
+
+        <CheckBox
+            android:id="@+id/alldaylong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/string_all_day_long" />
+    </LinearLayout>
+
+
+</LinearLayout>

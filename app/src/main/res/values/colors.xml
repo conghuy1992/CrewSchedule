@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#52AFE7</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#277bcd</color>
+    <color name="disable_text_color">#8e8e8e</color>
+    <color name="time_color_current_chat">#777777</color>
+    <color name="divide_color">#abbccc</color>
+    <color name="secondary_text_color">#76000000</color>
+    <color name="login">#37a3e4</color>
+
+    <color name="bg_not_in_month">#f3f3f3</color>
+    <color name="tv_luna_color">#f3f3f3</color>
+
+    <color name="current_day_bg_color">#eaf5ff</color>
+    <color name="current_day_border_color">#277bcd</color>
+    <color name="normal_day_border_color">#cfcfcf</color>
+
+
+    <color name="tv_sun_color">#ff8400</color>
+    <color name="tv_sat_color">#277bcd</color>
+
+
+    <color name="text_view_time_bg">#BDBDBD</color>
+    <color name="button_selected_color">#878787</color>
+    <color name="login_btn_color">#1b6bb9</color>
+    <color name="chat_list_bg_color">#d6ebff</color>
+    <color name="chat_status_tv">#6a6a6a</color>
+    <color name="input_text_color">#868686</color>
+    <color name="badge_bg_color">#ff8400</color>
+    <color name="fab_bg_color">#277bcd</color>
+    <color name="tree_user_position_color">#777777</color>
+
+
+    <color name="divider_add_new_schedule_color">#b8b8b8</color>
+    <color name="day_add_new_schedule_color">#5d5d5d</color>
+    <color name="divider_color">#d4d4d4</color>
+    <color name="share_person_color">#545454</color>
+    <color name="share_border_color">#d5d5d5</color>
+    <color name="gray_light">#DFDFDF</color>
+    <color name="color_mail_attach_background">#f0f0f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_compose_mail">#888888</color>
+    <color name="text_popup_month_c_color">#696969</color>
+
+    <color name="daily_list_schedule_color">#5a5959</color>
+
+</resources>

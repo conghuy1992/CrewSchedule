@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="@string/frequency" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd1"
+                    style="@style/custom_rd"
+                    android:checked="true"
+                    android:text="March 9th" />
+
+                <RadioButton
+                    android:id="@+id/rd2"
+                    style="@style/custom_rd"
+                    android:text="Wed of March" />
+
+                <RadioButton
+                    android:id="@+id/rd3"
+                    style="@style/custom_rd"
+                    android:text="Last Wed of March" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/lunar"
+                style="@style/custom_rd"
+                android:layout_marginLeft="5dp"
+                android:text="Lunar" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="@string/startend" />
+
+        <include
+            android:id="@+id/startday"
+            layout="@layout/calendar_startday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/infiniteloop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/infinite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layouttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="Time" />
+
+        <include
+            android:id="@+id/starthour"
+            layout="@layout/calendar_starthour" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/alldaylong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/string_all_day_long" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/custom_title"
+            android:text="If Holiday" />
+
+        <Spinner
+            android:id="@+id/spinnerHoliday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
